@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+<link rel="stylesheet"href="style.css">
+    <title>tailwind css assignment</title>
+    
+
+</head>
+
+<body>
+    <nav class="px-4 py-4 bg-white text-black flex items-center justify-between">
+        <ul class="flex items-center">
+            <li class="text-lg font-bold">SB UI KIT</li>
+        </ul>
+        <ul class="flex space-x-5 items-center">
+            <li class="">Home</li>
+            <li class="">Landing</li>
+            <li class="">Pages</li>
+            <li class="">Documentation</li>
+            <button class="bg-green-600 text-white px-6 py-2">Buy Now</button>
+        </ul>
+    </nav>
+    <div class="bg-gray-400 text-white text-center relative p-20 custom-footer">
+        <h2 class="text-2xl">Find the best businesses in town</h2>
+        <p class="mt-4">Search for restaurants, contractors, and other local businesses in your area to find out which ones are the best!</p>
+        <div class="flex justify-center mt-6">
+          <form class="flex flex-col md:flex-row items-center space-x-4 md:space-y-0 w-full md:w-auto">
+            <div class="w-full md:w-80">
+              <label for="inputSearch" class="sr-only">Find local businesses...</label>
+              <input type="text" id="inputSearch" class="form-input w-full px-4 py-2 border rounded-md" placeholder="Find local businesses...">
+            </div>
+            <div>
+              <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    <div class="body-1 mt-8 gap-2">
+        <div class="body-1-part-1 font-extrabold text-blue-600 text-center">
+            <h1>BROWSE BUSINESS</h1>
+        </div>
+        <div class="body-1-part-2 font-bold text-center">
+            <h7>
+                Not sure what to search for?Browse some of the most popular<br>categories.</h7>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-6">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.OLOGZ9ZypNVFsQ1Hzmg-iQHaFp&pid=Api&P=0&h=220" alt="Image 1"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Restaurants</p>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse1.mm.bing.net/th?id=OIP._n7ScLHmSoecK1iRhc3cPAHaE8&pid=Api&P=0&h=220" alt="Image 2"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Dry Cleaning</p>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.cOBPXHcX6wFEPj2ZgTTyZgHaEM&pid=Api&P=0&h=220" alt="Image 3"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Painters</p>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.YOdPqlH-o4h8I9qN23lbVQAAAA&pid=Api&P=0&h=220" alt="Image 4"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Medical</p>
+            </div>
+        </div>
+        <!-- Card 5-->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.xGC5DnOun_u9auS_HpVa6QHaEJ&pid=Api&P=0&h=220" alt="Image 1"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Gyms</p>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.sxphRAolK5Q42_BPVPpH7AHaE8&pid=Api&P=0&h=220" alt="Image 2"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">coffee</p>
+            </div>
+        </div>
+        <!-- Card 7-->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.F1Ass4uhEfOmT6w-JP4t7wHaE7&pid=Api&P=0&h=220" alt="Image 3"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">events</p>
+            </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.-DBU2m9khlQfjrVqlzmp2AHaE9&pid=Api&P=0&h=220" alt="Image 4"
+                class="w-full h-60 object-cover">
+            <div class="p-4 flex-grow flex items-center justify-center">
+                <p class="text-gray-700">Brewries</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-100 mx-5 px-10 py-10 relative">
+        <p class="text-black font-extrabold">Get the latest news</p>
+        <p class="text-black">Stay in the loop with the latest updates and features added to our<br>application!</p>
+        <div class="absolute right-0 mt-[-60px] mr-20">
+            <div class="flex space-x-2">
+                <input type="text" class="px-4 py-2 border rounded" placeholder="Youremail@gmail.com">
+                <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Search</button>
+            </div>
+            <p class=" mt-2">You can unsubscribe at any time</p>
+        </div>
+    </div>
+    <div class="bottom-1 mt-11 text-blue-600 font-bold  text-center">NEW BUSINESSES</div>
+    <div class="bottom-2 mt-1  text-center">Here are some of the most popular new businesses in your area.</div>
+<!--cards-->
+<div class="flex justify-between mt-5">
+    <div class="w-1/3 bg-white shadow-md rounded-lg overflow-hidden ml-4 mr-5">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.znNp3FxOsxPrKTrGxpGUigHaE8&pid=Api&P=0&h=220" alt="Placeholder Image" class="w-full h-52 object-cover">
+        <div class="p-8">
+            <p class="text-black font-bold">The Bamboo Ranch</p>
+            
+            <div class="flex mt-1">
+                <!-- Star Icons using SVG -->
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+            </div>
+            <p class="text-gray-600">[12 reviews]<br>Upper east,south,west.</p>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <p class="text-gray-600">Opened two months ago.</p>
+        </div>
+    </div>
+    <div class="w-1/3 bg-white shadow-md rounded-lg overflow-hidden  ml-4 mr-5">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.OLOGZ9ZypNVFsQ1Hzmg-iQHaFp&pid=Api&P=0&h=220" alt="Placeholder Image" class="w-full h-52 object-cover">
+        <div class="p-8">
+            <p class="text-black font-bold">Lakeside oyster</p>
+           
+            <div class="flex mt-1">
+                <!-- Star Icons using SVG -->
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+            </div>
+            <p class="text-gray-600">[8 reviews]<br>East forn,kigon.</p>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <p class="text-gray-600">Opened two months ago.</p>
+        </div>
+    </div>
+    <div class="w-1/3 bg-white shadow-md rounded-lg overflow-hidden  ml-4 mr-5">
+        <img src="https://thumbs.dreamstime.com/b/empty-plate-spoon-fork-knife-empty-plate-spoon-fork-knife-table-130842296.jpg" alt="Placeholder Image" class="w-full h-52 object-cover">
+        <div class="p-8">
+            <p class="text-black font-bold">Wild junction</p>
+           
+            <div class="flex mt-1">
+                <!-- Star Icons using SVG -->
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 1l2.5 6.5H19l-5 4.2 1.8 6.3L10 14.5 4.7 17l1.8-6.3-5-4.2h6.5L10 1z"/>
+                </svg>
+            </div>
+            <p class="text-gray-600">[28 reviews]<br>Shotles wood drade.</p>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <p class="text-gray-600">Opened two months ago.</p>
+        </div>
+    </div>
+</div>
+<div class="custom-container bg-black text-white px-20 py-20 relative overflow-hidden mt-6">
+    <div class="row flex flex-wrap justify-between relative z-10">
+        <div class="col-md-3 mb-8">
+            <a href="/" aria-label="SB UI Kit Pro">
+                <h4 class="text-white mb-4">SB UI Kit Pro</h4>
+            </a>
+            <p class="text-white mb-4">Design made easy</p>
+            <!-- Social icons section -->
+            <div class="flex items-center">
+                <a href="https://instagram.com" target="_blank" class="text-white mr-4" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="https://facebook.com" target="_blank" class="text-white mr-4" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                        <path d="M18 4h-1a5 5 0 0 0-5 5v1H9v3h3v7h3v-7h3l1-3h-4v-1a1 1 0 0 1 1-1h3V9h-3a3 3 0 0 0-3 3v1H9V9H6V6a5 5 0 0 1 5-5z"></path>
+                    </svg>
+                </a>
+                <a href="https://github.com" target="_blank" class="text-white mr-4" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.88-.01-1.75-2.8.61-3.4-1.34-3.4-1.34-.46-.93-1.13-1.18-1.13-1.18-.92-.63.07-.62.07-.62 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.12-.25-4.35-1.11-4.35-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.26.1-2.63 0 0 .84-.27 2.75 1.04A9.5 9.5 0 0 1 12 8.5a9.5 9.5 0 0 1 2.47-.33c1.91-1.31 2.75-1.04 2.75-1.04.55 1.37.21 2.38.1 2.63.64.7 1.03 1.59 1.03 2.68 0 3.84-2.24 4.7-4.36 4.95.34.31.65.92.65 1.85 0 1.34-.01 2.42-.01 2.75 0 .26.18.57.69.48A10.03 10.03 0 0 0 22 12c0-5.52-4.48-10-10-10z"></path>
+                    </svg>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white" aria-label="Twitter">
+                    <svg class="w-4"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                        <path d="M23 3.01c-1 .49-2 .87-3.06 1.13A4.98 4.98 0 0 0 22 2c-1 .53-2.12.88-3.28 1.08C17.59 2.4 16.34 2 15 2c-3.53 0-6.4 2.97-6.4 6.65 0 .52.06 1.02.17 1.5C7.4 10.57 4 8.92 2 6c-.55.95-.86 2.05-.86 3.2 0 2.2 1.12 4.13 2.82 5.27-1.04-.04-2.03-.32-2.88-.79v.08c0 3.06 2.19 5.62 5.1 6.21-.53.12-1.08.19-1.65.19-.4 0-.79-.04-1.17-.11.79 2.39 3.07 4.13 5.77 4.18-2.12 1.8-4.81 2.87-7.73 2.87-.5 0-.99-.03-1.47-.09 2.75 1.76 6.02 2.79 9.53 2.79 11.4 0 17.64-9.45 17.64-17.68 0-.27 0-.54-.02-.81 1.21-.87 2.27-1.96 3.1-3.2z"></path>
+                    </svg>
+                </a>
+            </div>
+            <!-- End of social icons section -->
+        </div>
+        <div class="col-md-2 mb-8">
+            <h5 class="text-white mb-4">Product</h5>
+            <p class="text-white mb-4">Landing<br>Pages<br>Sections<br>Documentation</p>
+        </div>
+        <div class="col-md-2 mb-8">
+            <h5 class="text-white mb-4">Legal</h5>
+            <p class="text-white mb-4">Privacy and policy<br>Terms and conditions<br>Licenses</p>
+        </div>
+        <div class="col-md-2 mb-8">
+            <h5 class="text-white mb-4">Technical</h5>
+            <p class="text-white mb-4">Documentation<br>Changing<br>Theme customization<br>UI kit</p>
+        </div>
+        <div class="col-md-3 mb-8">
+            <h5 class="text-white mb-4">Includes</h5>
+            <p class="text-white mb-4">Utilities<br>Components<br>Layout<br>Code samples</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>
